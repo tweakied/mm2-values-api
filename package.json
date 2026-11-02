@@ -1,7 +1,6 @@
 {
   "name": "supremevalues-api",
   "version": "1.0.0",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,8 +8,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "puppeteer-core": "^19.11.1",
-    "@sparticuz/chromium": "^106.0.2"
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
   },
   "engines": {
     "node": ">=16.0.0"
