@@ -1,7 +1,6 @@
 {
   "name": "supremevalues-api",
   "version": "1.0.0",
-  "description": "MM2 Value API Scraper",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -10,10 +9,10 @@
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "puppeteer-core": "^21.5.0",
-    "@sparticuz/chromium": "^119.0.0"
+    "puppeteer-core": "^19.11.1",
+    "@sparticuz/chromium": "^106.0.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.0.0"
   }
 }
